@@ -10,6 +10,8 @@ Explore AdaMoLE, a novel approach that integrates Low-Rank Adaptation (LoRA) wit
 - **Integration of LoRA and MoE:** Seamlessly combines Low-Rank Adaptation with the Mixture of Experts framework, enhancing the fine-tuning process for LLMs.
 - **Hugging Face Compatibility:** Designed to be compatible with the Hugging Face's [Transformers](https://github.com/huggingface/transformers) and [Parameter-Efficient Fine-Tuning (PEFT)](https://github.com/huggingface/peft) library, ensuring ease of use and integration into existing workflows.
 
+For more details regarding AdaMoLE, you are welcome to refer to our [paper on arXiv]().
+
 ## Installation
 
 ```bash
@@ -28,6 +30,13 @@ python train.py @configs/llama_adamole_csr_train.config
 
 # Test the model
 python test.py @configs/llama_adamole_csr_test.config
+```
+
+## Citation
+
+If you find AdaMoLE useful in your projects, please consider citing our paper:
+
+```bibtex
 ```
 
 ## License

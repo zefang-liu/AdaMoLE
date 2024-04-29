@@ -298,7 +298,7 @@ def get_formatted_datasets(data_path: str, prompt_only: bool):
 
     # Load and format datasets
     if data_name == 'super_glue':
-        data_names = ['cb', 'copa', 'rte', 'wic', 'wsc.fixed']
+        data_names = ['boolq', 'cb', 'copa', 'rte', 'wic']
         splits = ['train', 'validation', 'test']
         formatted_datasets = {split: [] for split in splits}
 
