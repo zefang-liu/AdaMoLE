@@ -36,14 +36,14 @@ python test.py @configs/llama_adamole_csr_test.config
 
 If you find AdaMoLE useful in your projects, please consider citing our paper:
 
+Liu, Z., & Luo, J. (2024). AdaMoLE: Fine-Tuning Large Language Models with Adaptive Mixture of Low-Rank Adaptation Experts. arXiv preprint *arXiv:2405.00361*.
+
 ```bibtex
-@misc{liu2024adamole,
-      title={AdaMoLE: Fine-Tuning Large Language Models with Adaptive Mixture of Low-Rank Adaptation Experts}, 
-      author={Zefang Liu and Jiahua Luo},
-      year={2024},
-      eprint={2405.00361},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{liu2024adamole,
+  title={AdaMoLE: Fine-Tuning Large Language Models with Adaptive Mixture of Low-Rank Adaptation Experts},
+  author={Liu, Zefang and Luo, Jiahua},
+  journal={arXiv preprint arXiv:2405.00361},
+  year={2024}
 }
 ```
 
