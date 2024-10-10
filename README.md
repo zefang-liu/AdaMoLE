@@ -1,4 +1,4 @@
-# AdaMoLE: Adaptive Mixture of Low-Rank Adaptation Experts [COLM 2024]
+# \[COLM 2024\] AdaMoLE: Adaptive Mixture of Low-Rank Adaptation Experts
 
 ## Introduction
 
@@ -6,7 +6,9 @@ Explore AdaMoLE, a novel approach that integrates Low-Rank Adaptation (LoRA) wit
 
 For more details regarding AdaMoLE, you are welcome to refer to our [paper](https://arxiv.org/abs/2405.00361) and [poster](poster.pdf).
 
-<img src="images/adamole.png" alt="AdaMoLE Framework" width="600"/>
+<div style="text-align: center;">
+  <img src="images/adamole.png" alt="AdaMoLE Framework" width="600"/>
+</div>
 
 ## Features
 
