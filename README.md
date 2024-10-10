@@ -1,8 +1,10 @@
-# AdaMoLE: Adaptive Mixture of Low-Rank Adaptation Experts
+# AdaMoLE: Adaptive Mixture of Low-Rank Adaptation Experts [COLM 2024]
 
 ## Introduction
 
-Explore AdaMoLE, a novel approach that integrates Low-Rank Adaptation (LoRA) with a dynamic Mixture of Experts (MoE) to enhance fine-tuning of Large Language Models (LLMs). AdaMoLE advances beyond static top-k expert activation by employing a dynamic thresholding mechanism, which adapts to the complexities of varied tasks to optimize model performance. This method efficiently selects and activates the most suitable experts based on input context, demonstrating superior performance in commonsense reasoning and natural language processing tasks. For more details regarding AdaMoLE, you are welcome to refer to our [paper](https://arxiv.org/abs/2405.00361).
+Explore AdaMoLE, a novel approach that integrates Low-Rank Adaptation (LoRA) with a dynamic Mixture of Experts (MoE) to enhance fine-tuning of Large Language Models (LLMs). AdaMoLE advances beyond static top-k expert activation by employing a dynamic thresholding mechanism, which adapts to the complexities of varied tasks to optimize model performance. This method efficiently selects and activates the most suitable experts based on input context, demonstrating superior performance in commonsense reasoning and natural language processing tasks.
+
+For more details regarding AdaMoLE, you are welcome to refer to our [paper](https://arxiv.org/abs/2405.00361) and [poster](poster.pdf).
 
 <img src="images/adamole.png" alt="AdaMoLE Framework" width="600"/>
 
